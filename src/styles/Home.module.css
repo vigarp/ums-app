@@ -1,0 +1,59 @@
+.navbarLeft {
+    background: #fff;
+    display: flex;
+    flex: 70% 1;
+}
+
+.card {
+    padding: 10px 15px;
+    margin: 0px 15px;
+  }
+
+.btnMin, .btnPlus {
+    background: rgba(190, 195, 202, 0.3);
+    border: 1px solid #82de3a;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 10px;
+}
+.qtyValue {
+    background: #fff;
+    border: 1px solid #82de3a;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.priceFloat {
+    float: right;
+    margin: 0px -120px;
+}
+
+.btnBack, .btnClose {
+    cursor: pointer;
+}
+
+/* MODAL */
+
+.checkoutWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+.checkoutInner {
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
